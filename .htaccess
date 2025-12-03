@@ -1,8 +1,17 @@
 <IfModule mod_rewrite.c>
+  # Ativa o motor de reescrita
   RewriteEngine On
+  
+  # Define o caminho base para a subpasta
   RewriteBase /vamoscuidarassociado/
-  RewriteRule ^index\.html$ - [L]
+  
+  # Ação 1: Se o caminho for um arquivo (ex: .js, .css, .png), serve diretamente e para.
   RewriteCond %{REQUEST_FILENAME} !-f
+  
+  # Ação 2: Se o caminho for um diretório (ex: /assets/), serve diretamente e para.
   RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Ação 3: Se o caminho não for um arquivo nem um diretório (é uma rota da SPA ou um asset que não existe fisicamente), 
+  # redireciona para o index.html, mantendo o caminho na URL.
   RewriteRule . /vamoscuidarassociado/index.html [L]
 </IfModule>
