@@ -54,7 +54,7 @@ const ContactForm = () => {
               Cadastro
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4">
-              Seja um Licenciado
+              Seja um Associado
             </h2>
             <p className="text-muted-foreground">
               Interessado em se tornar um Gestor Associado? Preencha o formulário e dê o primeiro passo.

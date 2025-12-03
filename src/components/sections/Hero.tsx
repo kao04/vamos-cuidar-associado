@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-in-up">
-            Seja um Licenciado{" "}
+            Seja um Associado{" "}
             <span className="block">Vamos Cuidar</span>
           </h1>
 
@@ -41,7 +41,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
             <Button variant="hero" size="lg" asChild>
-              <a href="#cadastro">Quero ser Licenciado</a>
+              <a href="#cadastro">Quero ser Associado</a>
             </Button>
             <Button variant="hero-outline" size="lg" asChild>
               <a href="#modelo">Conhecer o Modelo</a>

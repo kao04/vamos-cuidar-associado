@@ -67,7 +67,7 @@ const Header = () => {
               size="sm"
               asChild
             >
-              <a href="#cadastro">Seja Licenciado</a>
+              <a href="#cadastro">Seja um Associado</a>
             </Button>
           </nav>
 
@@ -111,7 +111,7 @@ const Header = () => {
                   href="#cadastro"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Seja Licenciado
+                  Seja um Associado
                 </a>
               </Button>
             </nav>
