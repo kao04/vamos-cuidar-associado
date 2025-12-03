@@ -15,32 +15,33 @@
     --popover: 0 0% 100%;
     --popover-foreground: 200 25% 15%;
 
-    --primary: 168 76% 32%;
+    /* CORES ATUALIZADAS PARA O TEMA AZUL (HUE: 210) */
+    --primary: 210 76% 32%; /* Era 168 76% 32% (Verde/Teal) */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 30% 94%;
+    --secondary: 210 30% 94%; /* Alterado para um cinza azulado suave */
     --secondary-foreground: 200 25% 15%;
 
-    --muted: 40 20% 92%;
+    --muted: 210 20% 92%; /* Alterado para um cinza azulado neutro */
     --muted-foreground: 200 15% 45%;
 
-    --accent: 15 85% 60%;
+    --accent: 200 85% 60%; /* Era 15 85% 60% (Laranja) - Agora um Ciano/Azul vibrante */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 20% 88%;
-    --input: 40 20% 88%;
-    --ring: 168 76% 32%;
+    --border: 210 20% 88%; /* Alterado para um tom de borda mais frio */
+    --input: 210 20% 88%; /* Alterado para um tom de input mais frio */
+    --ring: 210 76% 32%; /* Coordenado com Primary */
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --hero-gradient: linear-gradient(135deg, hsl(168 76% 32%) 0%, hsl(175 65% 40%) 100%);
+    --hero-gradient: linear-gradient(135deg, hsl(210 76% 32%) 0%, hsl(200 65% 40%) 100%); /* Hues atualizados */
     --card-shadow: 0 4px 24px -4px hsl(200 25% 15% / 0.08);
     --card-shadow-hover: 0 12px 32px -8px hsl(200 25% 15% / 0.15);
-    --glow-primary: 0 0 40px hsl(168 76% 32% / 0.3);
+    --glow-primary: 0 0 40px hsl(210 76% 32% / 0.3); /* Coordenado com Primary */
   }
 
   .dark {
@@ -53,7 +54,8 @@
     --popover: 200 20% 14%;
     --popover-foreground: 40 20% 95%;
 
-    --primary: 168 70% 45%;
+    /* CORES ATUALIZADAS PARA O TEMA AZUL (DARK MODE) */
+    --primary: 210 70% 45%; /* Era 168 70% 45% (Verde/Teal) */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 200 15% 20%;
@@ -62,7 +64,7 @@
     --muted: 200 15% 20%;
     --muted-foreground: 40 15% 60%;
 
-    --accent: 15 85% 60%;
+    --accent: 200 85% 60%; /* Era 15 85% 60% (Laranja) */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62% 50%;
@@ -70,7 +72,7 @@
 
     --border: 200 15% 25%;
     --input: 200 15% 25%;
-    --ring: 168 70% 45%;
+    --ring: 210 70% 45%; /* Coordenado com Primary */
   }
 }
 
