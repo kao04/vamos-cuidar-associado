@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Define o caminho base para assets (scripts, CSS, etc.).
+  // Usa '/vamoscuidarassociado/' em produção para o deploy na subpasta.
+  base: mode === "production" ? "/vamoscuidarassociado/" : "/",
   server: {
     host: "::",
     port: 8080,
